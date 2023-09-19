@@ -1,0 +1,669 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Topic Listing Bootstrap 5 Template</title>
+
+        <!-- CSS FILES -->        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
+                        
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/templatemo-topic-listing.css" rel="stylesheet">
+
+        <style>
+            *{
+             margin: 0;
+             padding: 0;
+             box-sizing: border-box;
+            }
+            body{
+             background: #f2f2f2;
+            }
+            @keyframes slide {
+             from {
+                 transform: translateX(0);
+             }
+             to {
+                 transform: translateX(-100%);
+             }
+            }
+            .logos{
+             overflow: hidden;
+             padding: 20px 0;
+             background: #1a1a1a;
+             white-space: nowrap;
+             position: relative;
+            }
+            .logos:before,
+            .logos:after{
+             position: absolute;
+             top: 0;
+             left: 0;
+             width: 5px;
+             height: 100%;
+             content: "";
+             z-index: 2;
+            }
+            .logos:before {
+             background: linear-gradient(to left, rgba(255, 255 ,255, 0),white);
+            }
+            .logos:after {
+             background: linear-gradient(to right, rgba(255, 255 ,255, 0),white);
+            }
+            .logos-slide {
+             animation: 35s slide infinite linear;
+             display: inline-block;
+            }
+            .logos-slide img{
+             height: 200px;
+             margin: 0 20px;
+            }
+            .my{
+             text-align: center;
+            }
+     
+         </style>
+    
+    </head>
+    
+    <body id="top">
+
+        <main>
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <i class="bi-back"></i>
+                        <span class="blue-text">MYN</span> <span class="black-text">Target</span>
+                    </a>
+    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-lg-5 me-lg-auto">
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_1">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#section_6">Our Work</a>
+                            </li>                            
+                            
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_2">Our Creations</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_3">How it works</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_4">FAQs</a>
+                            </li>
+    
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_5">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+
+            <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-8 col-12 mx-auto">
+                            <h1 class="text-white text-center">Your Success, Our Strategy</h1>
+
+                            <h6 class="text-center">Digital Markiting Agency</h6>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section id="section_6">
+                <h2 class="text-block">Our Creations</h2>
+                <div class="container1">
+                    <div class="gallary">
+                        <div class="img-box">
+                            <h3>Jeff</h3>
+                            <img src="images/topics/colleagues-working-cozy-office-medium-shot.png" alt="Jeff's Image" width="346.656" height="194.984">
+                        </div>
+                        <div class="img-box">
+                            <h3>Jeff</h3>
+                            <img src="images/topics/undraw_Compose_music_re_wpiw.jpg" alt="Jeff's Image" width="346.656" height="194.984">
+                        </div>
+                        <div class="img-box">
+                            <h3>Jeff</h3>
+                            <img src="images/topics/undraw_Educator_re_ju47.png" alt="Jeff's Image" width="346.656" height="194.984">
+                        </div>
+                        <div class="img-box">
+                            <h3>Jeff</h3>
+                            <img src="images/topics/undraw_Finance_re_gnv2.png" alt="Jeff's Image" width="346.656" height="194.984">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+
+            <section class="explore-section section-padding" id="section_2">
+                <div class="container">
+
+                        <div class="col-12 text-center">
+                            <h2 class="mb-4">What We Serve</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="design-tab" data-bs-toggle="tab" data-bs-target="#design-tab-pane" type="button" role="tab" aria-controls="design-tab-pane" aria-selected="true">Design</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="marketing-tab" data-bs-toggle="tab" data-bs-target="#marketing-tab-pane" type="button" role="tab" aria-controls="marketing-tab-pane" aria-selected="false">Marketing</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="music-tab" data-bs-toggle="tab" data-bs-target="#music-tab-pane" type="button" role="tab" aria-controls="music-tab-pane" aria-selected="false">Media Studio</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="websitecreation-tab" data-bs-toggle="tab" data-bs-target="#websitecreation-tab-pane" type="button" role="tab" aria-controls="websitecreation-tab-pane" aria-selected="false">Website Creation</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12">
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="design-tab-pane" role="tabpanel" aria-labelledby="design-tab" tabindex="0">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                                            <div class="custom-block bg-white shadow-lg">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">Graphic Design</h5>
+
+                                                            <p class="mb-0">Topic Listing Template based on Bootstrap 5</p>
+                                                        </div>
+
+                                                        <span class="badge bg-design rounded-pill ms-auto">14</span>
+                                                    </div>
+
+                                                    <img src="images/topics/undraw_Remote_design_team_re_urdx.png" class="custom-block-image img-fluid" alt="">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                                            <div class="custom-block bg-white shadow-lg">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">Logo Design</h5>
+
+                                                                <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                        </div>
+
+                                                        <span class="badge bg-design rounded-pill ms-auto">75</span>
+                                                    </div>
+
+                                                    <img src="images/topics/undraw_Redesign_feedback_re_jvm0.png" class="custom-block-image img-fluid" alt="">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-4 col-md-6 col-12">
+                                            <div class="custom-block bg-white shadow-lg">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">Video & Photo Editing</h5>
+
+                                                                <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                        </div>
+
+                                                        <span class="badge bg-design rounded-pill ms-auto">100</span>
+                                                    </div>
+
+                                                    <img src="images/topics/colleagues-working-cozy-office-medium-shot.png" class="custom-block-image img-fluid" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="marketing-tab-pane" role="tabpanel" aria-labelledby="marketing-tab" tabindex="0">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                                <div class="custom-block bg-white shadow-lg">
+                                                        <div class="d-flex">
+                                                            <div>
+                                                                <h5 class="mb-2">Advertising</h5>
+
+                                                                <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                            </div>
+
+                                                            <span class="badge bg-advertising rounded-pill ms-auto">30</span>
+                                                        </div>
+
+                                                        <img src="images/topics/undraw_online_ad_re_ol62.jpg" class="custom-block-image img-fluid" alt="">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                                <div class="custom-block bg-white shadow-lg">
+                                                        <div class="d-flex">
+                                                            <div>
+                                                                <h5 class="mb-2">UGC Content</h5>
+
+                                                                <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                            </div>
+                                                            <span class="badge bg-advertising rounded-pill ms-auto">65</span>
+                                                        </div>
+                                                        <img src="images/topics/undraw_Group_video_re_btu7.png" class="custom-block-image img-fluid" alt="">
+                                                </div>
+                                            </div> 
+                                        </div>
+                                  </div>
+
+                                <div class="tab-pane fade" id="music-tab-pane" role="tabpanel" aria-labelledby="music-tab" tabindex="0">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                            <div class="custom-block bg-white shadow-lg">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">Videography</h5>
+
+                                                            <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                        </div>
+
+                                                        <span class="badge bg-music rounded-pill ms-auto">45</span>
+                                                    </div>
+
+                                                    <img src="images/topics/undraw_Compose_music_re_wpiw.jpg" class="custom-block-image img-fluid" alt="">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                            <div class="custom-block bg-white shadow-lg">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">Photography</h5>
+
+                                                            <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                        </div>
+
+                                                        <span class="badge bg-music rounded-pill ms-auto">45</span>
+                                                    </div>
+
+                                                    <img src="images/topics/undraw_happy_music_g6wc.png" class="custom-block-image img-fluid" alt="">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-4 col-md-6 col-12">
+                                            <div class="custom-block bg-white shadow-lg">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">Video Recording With Drone</h5>
+
+                                                            <p class="mb-0">Lorem Ipsum dolor sit amet consectetur</p>
+                                                        </div>
+
+                                                        <span class="badge bg-music rounded-pill ms-auto">20</span>
+                                                    </div>
+
+                                                    <img src="images/topics/undraw_Podcast_audience_re_4i5q.jpg" class="custom-block-image img-fluid" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="websitecreation-tab-pane" role="tabpanel" aria-labelledby="websitecreation-tab" tabindex="0">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                                <div class="custom-block bg-white shadow-lg">
+                                                        <div class="d-flex">
+                                                            <div>
+                                                                <h5 class="mb-2">Website Development</h5>
+
+                                                                <p class="mb-0">Static websites with style.</p>
+                                                            </div>
+
+                                                            <span class="badge bg-websitecreation rounded-pill ms-auto">1</span>
+                                                        </div>
+
+                                                        <img src="images/topics/webdev.png" class="custom-block-image img-fluid" alt="">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                                <div class="custom-block bg-white shadow-lg">
+                                                        <div class="d-flex">
+                                                            <div>
+                                                                <h5 class="mb-2">E-commerce Websites</h5>
+
+                                                                <p class="mb-0">Crafting Shopify Websites</p>
+                                                            </div>
+                                                            <span class="badge bg-websitecreation rounded-pill ms-auto">2</span>
+                                                        </div>
+                                                        <img src="images/topics/ecomm.png" class="custom-block-image img-fluid" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                  </div>
+                            </div>
+
+                    </div>
+                </div>
+            </section>
+            <section class="our-clients">
+                <h2 class="text-block">Success Stories</h2>
+                <div class="logos">
+                    <div class="logos-slide">
+                            <img src="https://cdn.shopify.com/s/files/1/0800/6221/8531/files/Artboard_2_4d754f40-1cec-49fb-8529-dd57fc63a90b.png?v=1693651034" alt="Image 1">
+                            <img src="https://cdn.shopify.com/s/files/1/0800/6221/8531/files/Artboard_1_e1f0e947-57da-4cb3-ae77-c08dcb502371.png?v=1693651035" alt="Image 1">
+                            <img src="https://cdn.shopify.com/s/files/1/0800/6221/8531/files/Artboard_3_127d9386-d0e4-4eb2-bb79-4e14673c6479.png?v=1693651035" alt="Image 1">
+                    </div>
+                    <div class="logos-slide">
+                        <img src="https://cdn.shopify.com/s/files/1/0800/6221/8531/files/Artboard_2_4d754f40-1cec-49fb-8529-dd57fc63a90b.png?v=1693651034" alt="Image 1">
+                        <img src="https://cdn.shopify.com/s/files/1/0800/6221/8531/files/Artboard_1_e1f0e947-57da-4cb3-ae77-c08dcb502371.png?v=1693651035" alt="Image 1">
+                        <img src="https://cdn.shopify.com/s/files/1/0800/6221/8531/files/Artboard_3_127d9386-d0e4-4eb2-bb79-4e14673c6479.png?v=1693651035" alt="Image 1">
+                    </div>
+                    <div class="logos-slide">
+                        <img src="https://cdn.shopify.com/s/files/1/0800/6221/8531/files/Artboard_2_4d754f40-1cec-49fb-8529-dd57fc63a90b.png?v=1693651034" alt="Image 1">
+                        <img src="https://cdn.shopify.com/s/files/1/0800/6221/8531/files/Artboard_1_e1f0e947-57da-4cb3-ae77-c08dcb502371.png?v=1693651035" alt="Image 1">
+                        <img src="https://cdn.shopify.com/s/files/1/0800/6221/8531/files/Artboard_3_127d9386-d0e4-4eb2-bb79-4e14673c6479.png?v=1693651035" alt="Image 1">
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="timeline-section section-padding" id="section_3">
+                <div class="section-overlay"></div>
+
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12 text-center">
+                            <h2 class="text-white mb-4">How does it work?</h1>
+                        </div>
+
+                        <div class="col-lg-10 col-12 mx-auto">
+                            <div class="timeline-container">
+                                <ul class="vertical-scrollable-timeline" id="vertical-scrollable-timeline">
+                                    <div class="list-progress">
+                                        <div class="inner"></div>
+                                    </div>
+
+                                    <li>
+                                        <h4 class="text-white mb-3">Search your favourite topic</h4>
+
+                                        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, cumque magnam? Sequi, cupiditate quibusdam alias illum sed esse ad dignissimos libero sunt, quisquam numquam aliquam? Voluptas, accusamus omnis?</p>
+
+                                        <div class="icon-holder">
+                                          <i class="bi-search"></i>
+                                        </div>
+                                    </li>
+                                    
+                                    <li>
+                                        <h4 class="text-white mb-3">Bookmark &amp; Keep it for yourself</h4>
+
+                                        <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint animi necessitatibus aperiam repudiandae nam omnis est vel quo, nihil repellat quia velit error modi earum similique odit labore. Doloremque, repudiandae?</p>
+
+                                        <div class="icon-holder">
+                                          <i class="bi-bookmark"></i>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <h4 class="text-white mb-3">Read &amp; Enjoy</h4>
+
+                                        <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi vero quisquam, rem assumenda similique voluptas distinctio, iste est hic eveniet debitis ut ducimus beatae id? Quam culpa deleniti officiis autem?</p>
+
+                                        <div class="icon-holder">
+                                          <i class="bi-book"></i>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="faq-section section-padding" id="section_4">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-12">
+                            <h2 class="mb-4">Frequently Asked Questions</h2>
+                        </div>
+
+                        <div class="clearfix"></div>
+
+                        <div class="col-lg-5 col-12">
+                            <img src="images/faq_graphic.jpg" class="img-fluid" alt="FAQs">
+                        </div>
+
+                        <div class="col-lg-6 col-12 m-auto">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        What is Topic Listing?
+                                        </button>
+                                    </h2>
+
+                                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Topic Listing is free Bootstrap 5 CSS template. <strong>You are not allowed to redistribute this template</strong> on any other template collection website without our permission. Please contact TemplateMo for more detail. Thank you.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            What sets your digital marketing agency apart from competitors?
+                                    </button>
+                                    </h2>
+
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            At MYN Target, we stand out by delivering results-driven digital marketing strategies tailored to your unique business needs. Our experienced team, data-driven approach, and commitment to innovation ensure your success.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            What is the typical timeline and budget for digital marketing campaigns?
+                                    </button>
+                                    </h2>
+
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Budget and timeline are crucial factors for clients. Be prepared to discuss the estimated costs of your services and the expected duration of campaigns. It's important to emphasize that digital marketing is an ongoing process, and results may vary based on the scope of the project. Discussing a realistic budget and timeline helps set expectations and ensures clients are comfortable with the investment.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="contact-section section-padding section-bg" id="section_5">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12 text-center">
+                            <h2 class="mb-5">Get in touch</h2>
+                        </div>
+
+                        <div class="col-lg-5 col-12 mb-4 mb-lg-0">
+                            <div class="map-containerq">
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d414.5623748709154!2d35.90006827116394!3d33.77361005289416!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDQ2JzI1LjEiTiAzNcKwNTQnMDAuMSJF!5e0!3m2!1sen!2slb!4v1694682088635!5m2!1sen!2slb" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                          </div>
+                          
+
+                        <div class="col-lg-3 col-md-6 col-12 mb-3 mb-lg- mb-md-0 ms-auto">
+                            <h4 class="mb-3">Head office</h4>
+
+                            <p>Bar Elias, Bekaa, Lebanon</p>
+
+                            <hr>
+
+                            <p class="d-flex align-items-center mb-1">
+                                <span class="me-2">Phone</span>
+
+                                <a href="tel: 305-240-9671" class="site-footer-link">
+                                    (+961) 76-081-846
+                                </a>
+                            </p>
+
+                            <p class="d-flex align-items-center">
+                                <span class="me-2">Email</span>
+
+                                <a href="mailto:info@company.com" class="site-footer-link">
+                                    myn.target@gmail.com
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+<footer class="site-footer section-padding">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-12 mb-4 pb-2">
+                        <a class="navbar-brand mb-2" href="index.html">
+                            <i class="bi-back"></i>
+                            <span class="blue-text">MYN</span> <span class="black-text">Target</span>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6">
+                        <h6 class="site-footer-title mb-3">Resources</h6>
+
+                        <ul class="site-footer-links">
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link">Home</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#section_2" class="site-footer-link">Our Services</a>
+                            </li>                            
+
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link">How it works</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link">FAQs</a>
+                            </li>
+
+                            <li class="site-footer-link-item">
+                                <a href="#" class="site-footer-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-6 mb-4 mb-lg-0">
+                        <h6 class="site-footer-title mb-3">Information</h6>
+
+                        <p class="text-white d-flex mb-1">
+                            <a href="tel: 305-240-9671" class="site-footer-link">
+                                (+961) 76-081-846
+                            </a>
+                        </p>
+
+                        <p class="text-white d-flex">
+                            <a href="mailto:info@company.com" class="site-footer-link">
+                                myn.target@gmail.com
+                            </a>
+                        </p>
+                        <p class="text-white d-flex">
+                            <a href="https://instagram.com/myn.target?igshid=MzRlODBiNWFlZA==" class="site-footer-link" target="_blank">
+                                Instagram Profile
+                            </a>                            
+                        </p>
+                        <p class="text-white d-flex">
+                            <a href="https://facebook.com/profile.php?id=100087589958630" class="site-footer-link" target="_blank">
+                                Facebook Profile
+                            </a>                            
+                        </p>
+                        <p class="text-white d-flex">
+                            <a href="https://www.tiktok.com/@myntarget?is_from_webapp=1&sender_device=pc" class="site-footer-link" target="_blank">
+                                TikTok Profile
+                            </a>                            
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-12 mt-4 mt-lg-0 ms-auto">
+                        <p class="copyright-text mt-lg-5 mt-4">
+                            Copyright &copy; <span id="currentYear"></span> MYN Target. All <br> rights reserved.
+                        </p>
+                    </div>                    
+
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- JAVASCRIPT FILES -->
+        <script>
+            const currentYear = new Date().getFullYear();
+            document.getElementById('currentYear').textContent = currentYear;
+        </script>
+
+        <script>
+            function toggleVideo(videoId) {
+                const video = document.getElementById(videoId);
+                if (video.paused) {
+                 video.play();
+                    video.parentElement.classList.add("playing");
+                } else {
+                    video.pause();
+                    video.parentElement.classList.remove("playing");
+                }
+            }
+
+            function hidePlayButton(video) {
+                video.parentElement.querySelector(".play-button").classList.add("hidden");
+            }
+        </script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/click-scroll.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
+</html>
